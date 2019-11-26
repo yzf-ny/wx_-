@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WX-publicNo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>WX-publicNo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="WX-publicNo.war">
+      <element id="artifact" artifact-name="WX-publicNo:war exploded" />
+    </root>
+  </artifact>
+</component>
